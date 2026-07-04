@@ -1,0 +1,101 @@
+@import url(/css/style_gobal.css);
+@import url(/css/style_keyframe.css);
+
+
+
+body{
+    height: 100vh;
+    background: radial-gradient(circle, var(--colour-dark-blue-1-up), var(--colour-dark-blue-2-mid), var(--colour-dark-blue-3-below));
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: 200% 200%;
+    animation: orbitaRadial 18s ease-in-out infinite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.all-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0e0e027;
+    height: 40%;
+    max-width: 50%;
+    border-radius: 20px;
+    border: solid #e0e0e070 1px;
+}
+
+
+.container-view-password{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e069;
+    border-radius: 20px;
+    border: solid #e0e0e070 1px;
+
+}
+
+.display-text-password{
+    text-align: end;
+    font-size: 2.3rem;
+    width: auto;
+    color: var(--colour-white);
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Responsive */
+
+
+@media (min-width: 0px) and (max-width: 890px) {
+    .all-content{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        max-width: 90%;
+        border: solid #e0e0e070 1px;
+        padding: 20px 0;
+    }
+
+    .display-text-password{
+        text-align: center;
+        font-size: 1.4rem;
+        width: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+
+}
+
+
+@media (min-width: 891) and (max-width: 1200px) {
+
+    .all-content{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        max-width: auto;
+        border: solid #e0e0e070 1px;
+        padding: 20px 0;
+    }
+
+    .display-text-password{
+        text-align: center;
+        font-size: 1.8rem;
+        width: auto;
+    }
+
+
+}

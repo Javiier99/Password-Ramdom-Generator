@@ -1,0 +1,11 @@
+@keyframes orbitaRadial{
+    0%{
+        background-position: 0% 30%;
+    }
+    50%{
+        background-position: 30% 100%;
+    }
+    100%{
+        background-position: 100% 100%;
+    }
+}

@@ -1,0 +1,77 @@
+:root{ 
+
+    /*  Colores */
+    --colour-dark-blue-1-up : #000013;
+    --colour-dark-blue-2-mid: #000233;
+    --colour-dark-blue-3-below: #00001F;
+    --colour-white: #fff;
+    --colour-black: #000;
+
+    /* Tipoggrafy */
+    /* header */
+    --font-family-h1: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --font-size-h1: 3rem;
+    --font-color-h1: #fff;
+    /* parrafo */
+    --font-family-p: Georgia, 'Times New Roman', Times, serif;
+    --font-size-p: 1.7rem;
+    --font-color-p: #d8d8d8;
+
+}   
+
+
+
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+h1{
+    font-family: var(--font-family-h1);
+    font-size: var(--font-size-h1);
+    color: var(--font-color-h1);
+    padding-bottom: 0;
+    margin-bottom: 10;
+
+}
+
+
+p{
+    font-family: var(--font-family-p);
+    font-size: var(--font-size-p) ;
+    color: var(--font-color-p);
+    text-align: center;
+    width: 70%;
+    padding-bottom: 16px;
+    margin: 0;
+
+}
+
+
+button{
+    background-color: #e0e0e0a2;
+    border-radius: 20px;
+    border: solid #e0e0e070 1px;
+    color: var(--colour-white);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+button:hover{
+    background-color: #ffffffee;
+    color: var(--colour-black);
+    transition: 0.5s;
+    
+}
+
+
+button:active{
+    background-color: var(--colour-dark-blue-2-mid);
+    border: solid var(--colour-dark-blue-2-mid) 1px;
+    color: var(--colour-white);
+    transition: 0.01s;
+    
+}
